@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature Sounds</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Nature Sounds - White Noise</h1>
+
+    <div class="sound-control">
+      <h2>Rain 🌧️</h2>
+      <button onclick="toggleSound('rain')">Play/Pause</button>
+      <input
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="1"
+        onchange="setVolume('rain', this.value)"
+      />
+    </div>
+
+    <div class="sound-control">
+      <h2>Wind 🌬️</h2>
+      <button onclick="toggleSound('wind')">Play/Pause</button>
+      <input
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="1"
+        onchange="setVolume('wind', this.value)"
+      />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

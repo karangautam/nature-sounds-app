@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.sound-control {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
